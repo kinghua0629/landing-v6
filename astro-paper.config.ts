@@ -2,18 +2,18 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    url: "https://oscarhua0629.com/",
+    title: "Ziwen's Blog",
+    description: "Ziwen's personal profile",
+    author: "Ziwen Hua",
+    profile: "https://kinghua0629.com",
     ogImage: "default-og.jpg",
     lang: "en",
-    timezone: "Asia/Bangkok",
-    dir: "ltr",
+    timezone: "Asia/Shanghai",
+    dir: "auto",
   },
   posts: {
-    perPage: 4,
+    perPage: 6,
     perIndex: 4,
     scheduledPostMargin: 15 * 60 * 1000,
   },
@@ -24,15 +24,15 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      url: "https://github.com/kinghua0629/landing-v6/edit/main/",
     },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "github",   url: "https://github.com/kinghua0629/" },
+    { name: "x",        url: "https://x.com/TimHua349889" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/ziwen-hua-625a6a3b4/" },
+    { name: "mail",     url: "mailto:oscarhua0629@gmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
